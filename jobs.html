@@ -1,0 +1,305 @@
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>OpenEyes - Your home for technology.</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="theme-color" content="#1a2837">
+      <link rel="stylesheet" href="./files/css/jobs.css">
+      <link rel="icon" type="image/x-icon" href="files/images/logo.ico">
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   </head>
+   <body class="homepage">
+      <div class="app-layout homepage">
+      <div class="app-top">
+         <script src="files/js/init.js"></script>
+      <div class="app-header">
+         <div class="app-header-inner">
+            <a href="index.html" class="logo purple">
+            <img src="files/images/logo2.png">
+            <span>OpenEyes</span>
+            </a>
+            <div class="mobile-menu-button-wrapper">
+               <button class="mobile-menu-button open" style="rotate: 90deg; transform: scale(3); color: magenta;" onclick="toggleMobileMenu(true)" aria-label="open menu">|||</button>
+               <button class="mobile-menu-button close" style="transform: scale(4); color: magenta;" onclick="toggleMobileMenu(false)" aria-label="close menu">×</button>
+            </div>
+            <nav class="menu">
+               <ul>
+                  <li>
+                     <a href="benefits.html" onclick="toggleMobileMenu(false)" class="internal-link">Benefits</a>
+                  </li>
+                  <li>
+                     <a href="#" style="color: lightpink;">Apply</a>
+                  </li>
+                  <li>
+                     <a href="contact.html">Contact Us</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+         <img width="100%" height="2.5em" src="files/images/rgb.gif">
+      </div>
+      <div id="butter">
+      <div class="app-content-container">
+      <section class="view-homepage">
+         <section class="section-top">
+            <div class="top-upper">
+               <div class="video-wrapper">
+                  <video poster="files/images/background.png" preload="auto" autoplay="" playsinline="" loop=""></video>
+               </div>
+               <div class="homepage-section-wrapper">
+                  <div class="top-content">
+                     <div class="info">
+                        <h1 class="title"> Our Job Postings </h1>
+                        <script src="files/js/rainbowwheel.js"></script>
+                        <p class="message">Looking to join our team? We are honored that you are interested in our company and can't wait to see you! We are always seeking new applicants, so feel free to take a look at our available positions below!</p>
+                     </div>
+                     <div class="screenshots">
+                        <div class="itc-slider" data-slider="itc-slider">
+                           <iframe src="files/slideshows/jobs/jobs-slideshow.html" class="slideshow" frameborder=0 width="671px" height="500px"></iframe>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="top-footer">
+               <div class="wrapper">
+                  <span>Free Diagnostics</span>
+                  <span>Easy-to-use Online Tools</span>
+                  <span>24/7 Response Team</span>
+                  <span>Certified Learning Courses</span>
+               </div>
+            </div>
+         </section>
+         <section class="section-creators-and-gamers">
+            <div class="homepage-section-wrapper">
+               <div class="layout">
+                  <p style="font-size:55px; line-height: 1em; color: white;" class="lime">We want to <br>
+                     <span class="purple2">Hire</span> you
+                  </p>
+                  <p>We will provide you with a promising future in the technology industry</p>
+                  <div class="graphic">
+                     <div class="desktop-background"></div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <span id="how-it-works"></span>
+         <section class="section-how-it-works">
+            <div class="homepage-section-wrapper">
+               <div class="layout">
+                  <div class="col">
+                     <div class="tile purple3">
+                        <h1 style="margin-bottom:15px">Join Our Team</h1>
+                        <p style="padding-bottom: 30px; text-align: center;">We are actively updating our position offerings*</p>
+                        <div class="card-holder">
+                           <div class="card">
+                              
+                              <div style="margin-bottom: 50px;" class="tile2">
+                              <h3 style="margin-bottom: 20px;">Repair Specialist</h3>
+                              <div class="card-contents">
+                              <button class="bubbly-button">Job Description</button>
+                              <span style="text-align: center;" class="card__read-more">Repair Specialists must: <span style="color: #c2c2c2;">be able to demonstrate an exceptional udnerstanding of electronic components, while providing constant repair solutions for them </span>
+                              <ul>Your roles and responsibilities will include:</ul>
+                              <span style="text-align:left !important; color: #c2c2c2;">
+                              <li> Developing repair solutions
+                              <li> Repairing customers personal devices
+                              <li> Documenting repairs and their solutions
+                              </span>
+                              </span>
+                              </div>
+                              <div class="card-contents">
+                              <button class="bubbly-button">Job Requirements</button>
+                              <span style="text-align: center;" class="card__read-more">We require all applicants to have a minimum of: <br>
+                              <span style="text-align:left !important; color: #c2c2c2;">
+                              <ul>
+                              <li> A valid CompTIA A+ certificate
+                              <li> 2 years of experience
+                              <li> High school GED or higher
+                              </span>
+                              </span>
+                              </div>
+                              <div class="card-contents">
+                              <button class="bubbly-button">Apply Now</button>
+                              <span style="text-align: center;" class="card__read-more">
+                              <br>Attach your resume and any other required documents <br>
+                              <br>
+                              <input id="fullname-apply" name="fullname" type="text" placeholder="Full Name" required autocomplete="name">
+                              <input id="phone-apply" name="phone" type="text" placeholder="Phone Number" required autocomplete="tel">
+                              <br><br>
+                              <input type="file" id="real-file" hidden="hidden" />
+                              <button type="button" id="custom-button">Upload Files</button>
+                              <br>
+                              <span style="font-size:60%; color: #c2c2c2; position: relative; top: 3px;">Files must be below 5MB * </span>
+                              <br>
+                              <br>
+                              <button style="transform:scale(0.8);" id="custom-button">Submit</button>
+                              </div>
+                              </div>
+                              <div style="margin-bottom: 50px;" class="tile2">
+                              <h3 style="margin-bottom: 20px;">Website Developer</h3>
+                              <div class="card-contents">
+                              <button class="bubbly-button">Job Description</button>
+                              <span style="text-align: center;" class="card__read-more">Website Developers must: <span style="color: #c2c2c2;">design and create astonishing and entertaining HTML5 websites, while managing the frontend and backend</span>
+                              <ul>Your roles and responsibilities will include:</ul>
+                              <span style="text-align:left !important; color: #c2c2c2;">
+                              <li> Using HTML5 and CSS3 to develop frontend websites
+                              <li> Using JS/Python/PHP to implement a powerful backend
+                              <li> Updating the UX/UI design on active webpages
+                              </span>
+                              </span>
+                              </div>
+                              <div class="card-contents">
+                              <button class="bubbly-button">Job Requirements</button>
+                              <span style="text-align: center;" class="card__read-more">We require all applicants to have a minimum of: <br>
+                              <span style="text-align:left !important; color: #c2c2c2;">
+                              <ul>
+                              <li> A valid CompTIA A+ certificate
+                              <li> 3 years of experience
+                              <li> Improving data quality and efficiency
+                              </span>
+                              </span>
+                              </div>
+                              <div class="card-contents">
+                              <button class="bubbly-button">Apply Now</button>
+                              <span style="text-align: center;" class="card__read-more">
+                              <br>Attach your resume and any other required documents <br>
+                              <br>
+                              <input id="fullname-apply2" name="fullname" type="text" placeholder="Full Name" required autocomplete="name">
+                              <input id="phone-apply2" name="phone" type="text" placeholder="Phone Number" required autocomplete="tel">
+                              <br><br>
+                              <input type="file" id="real-file" hidden="hidden" />
+                              <button type="button" id="custom-button">Upload Files</button>
+                              <br>
+                              <span style="font-size:60%; color: #c2c2c2; position: relative; top: 3px;">Files must be below 5MB * </span>
+                              <br>
+                              <br>
+                              <button style="transform:scale(0.8);" id="custom-button">Submit</button>
+                              <script>
+                                 const realFileBtn = document.getElementById("real-file");
+                                 const customBtn = document.getElementById("custom-button");
+                                 customBtn.addEventListener("click", function() {
+                                   realFileBtn.click();
+                                 });
+                              </script>
+                              </div>
+                              </div>
+                              <div style="margin-bottom: 50px;" class="tile2">
+                                 <h3 style="margin-bottom: 20px;">Data Engineer</h3>
+                                 <div class="card-contents">
+                                    <button class="bubbly-button">Job Description</button>
+                                    <span style="text-align: center;" class="card__read-more">
+                                       Data engineers must: <span style="color: #c2c2c2;">implement methods to improve data reliability and quality, while developing consistent machine-readable formats.</span>
+                                       <ul>Your roles and responsibilities will include:</ul>
+                                       <span style="text-align:left !important; color: #c2c2c2;">
+                                          <li> Analyzing raw data
+                                          <li> Developing and maintaining datasets
+                                          <li>
+                                             Improving data quality and efficiency
+                                       </span>
+                                    </span>
+                                 </div>
+                                 <div class="card-contents">
+                                 <button class="bubbly-button">Job Requirements</button>
+                                 <span style="text-align: center;" class="card__read-more">We require all applicants to have a minimum of: <br>
+                                 <span style="text-align:left !important; color: #c2c2c2;">
+                                 <ul>
+                                 <li> A valid CompTIA A+ certificate
+                                 <li> 3 years of experience
+                                 <li> High school GED or higher
+                                 </span>
+                                 </span>
+                                 </div>
+                                 <div class="card-contents">
+                                 <button class="bubbly-button">Apply Now</button>
+                                 <span style="text-align: center;" class="card__read-more">
+                                 <br>Attach your resume and any other required documents <br>
+                                 <br>
+                                 <input id="fullname-apply3" name="fullname" type="text" placeholder="Full Name" required autocomplete="name">
+                                 <input id="phone-apply3" name="phone" type="text" placeholder="Phone Number" required autocomplete="tel">
+                                 <br><br>
+                                 <input type="file" id="real-file" hidden="hidden" />
+                                 <button type="button" id="custom-button">Upload Files</button>
+                                 <br>
+                                 <span style="font-size:60%; color: #c2c2c2; position: relative; top: 3px;">Files must be below 5MB * </span>
+                                 <br>
+                                 <br>
+                                 <button style="transform:scale(0.8);" id="custom-button">Submit</button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         </section>
+         <script src="files/js/animateButton.js"></script>
+         <script src="files/js/cardToggle.js"></script>
+         <section class="section-faq">
+               <div class="homepage-section-wrapper">
+                  <div class="faq-items">
+                     <div class="row">
+                        <div class="item tile fade">
+                           <form>
+                              <div class="formout">
+                                 <div class="form-inner">
+                                    <h3>Subscribe for News and Updates</h3>
+                                    <br>
+                                    <h4>
+                                       <i>Fields marked with an asterisk (*) are required.</i>
+                                    </h4>
+                                    <div class="forminput">
+                                       <input id="fullname" name="fullname" type="text" placeholder="Full Name *" required autocomplete="name">
+                                       <script type="text/javascript">
+                                          $('.fullname').focus(function() {
+                                            $('.fullname').attr('placeholder', 'John Appleseed')
+                                          }).blur(function() {
+                                            $('.fullname').attr('placeholder', 'Full Name *')
+                                          })
+                                       </script>
+                                       <input id="email" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email Address *" required autocomplete="email">
+                                       <script type="text/javascript">
+                                          $('.email').focus(function() {
+                                            $('.email').attr('placeholder', 'username@example.com')
+                                          }).blur(function() {
+                                            $('.email').attr('placeholder', 'Email Address *')
+                                          })
+                                       </script>
+                                       <input id="address" name="address" style="cursor: text;" placeholder="Address *" rows="1" required autocomplete="street-address">
+                                       <script type="text/javascript">
+                                          $('.address').focus(function() {
+                                            $('.address').attr('placeholder', '123 S Cherry LN, 85326')
+                                          }).blur(function() {
+                                            $('.address').attr('placeholder', 'Address *')
+                                          })
+                                       </script>
+                                       <input class="btn-fill-primary" type="submit" value="Subscribe">
+                                    </div>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+      </section>
+      </div>
+      <footer class="app-footer">
+      <div class="app-footer-wrapper">
+      <nav class="links">
+      <a>FBLA 2024 State</a>
+      <a>Created by <u>Jagger</u>
+      </a>
+      </nav>
+      </div>
+      </footer>
+      <script src="files/js/dropdown.js"></script>
+      <script src="files/butter.js"></script>
+      <script>
+         butter.init({
+           cancelOnTouch: true
+         });
+      </script>
+   </body>
+   <script src="files/js/fade.js"></script>
+</html>
