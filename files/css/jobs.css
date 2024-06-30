@@ -70,9 +70,6 @@
      background: linear-gradient(to top, #331277aa 0%, #12001244 50%, #11171d 100%) !important;
      filter: drop-shadow(0 0 10px #000) 
 }
- .purple3 a {
-     color: hotpink;
-}
  .dropbtn {
      background: 0 0;
      padding: 16px;
@@ -2328,11 +2325,10 @@ width: 90% !important;
         color: deeppink;
 }
 
-.bubbly-button {
+.bubbly-button-a {bottom: 5px;
         width: 70%;
         white-space: nowrap;
         font-family: "Helvetica", "Arial", sans-serif;
-        display: inline-block;
         font-size: 1em;
         padding: 1em 2em;
         -webkit-appearance: none;
@@ -2344,9 +2340,15 @@ width: 90% !important;
         cursor: pointer;
         position: relative;
         transform: scale(1.1);
-        margin: ;
         transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
         box-shadow: 0 2px 25px rgba(255, 0, 125, 0.5);
+        transition: ease all 0.2s;
+      }
+      .bubbly-button-a:hover {
+        background-color: #181818;
+        color: #fff3fe;
+        border-radius: 16px;
+        transform: scale(1.15);
       }
 
       .bubbly-button:focus {
@@ -2362,3 +2364,40 @@ width: 90% !important;
       	border: 1px solid deeppink;
       	border-radius: 25px;
       }
+
+      
+.containertestimonial {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+  }
+  
+  .containertestimonial::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .containertestimonial img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .containertestimonial span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 500px) {
+    .containertestimonial {
+        text-align: center;
+    }
+    .containertestimonial img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
