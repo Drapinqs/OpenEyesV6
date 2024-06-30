@@ -1814,10 +1814,51 @@
          position: relative;
          top: -0px;
     }
-     .slideshow{
+     .slideshow {
          width: 100% !important;
-         height: 120% !important;
+         height: 110% !important;
     }
+}
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) {
+        .slideshow {
+         width: 100% !important;
+         height: 70% !important;
+    } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+.slideshow {
+         width: 100% !important;
+         height: 70% !important;
+         position: relative;
+         right: -10px;
+         top: 100px;
+    }
+    .bubbly-button {
+width: 90% !important;
+    }
+    .tile2 {
+        width: 180% !important;
+        position: relative;
+        right: 125px;
+    }
+    .card__read-more--open {
+          position: relative;
+          left: 0px;
+          width: 100% !important;
+        }
+        .card__read-more--open span {
+          position: relative;
+          left: 0px;
+        }
+#textfield, #fullname-apply, #phone-apply, #fullname-apply2, #phone-apply2, #fullname-apply3, #phone-apply3 {
+
+     width: 100%;
+}
+        .card-contents span {
+          position: relative;
+          right:200px;
+        }
 }
  @media (max-width:1000px) {
      .app-layout .app-header {
@@ -2206,9 +2247,9 @@
 
         .card__read-more {
           position: relative;
-          left: -113px;
+          left: -118px;
           margin-top: 30px;
-          transform: scale(0.6);
+          transform: scale(0.55);
         }
         .bubbly-button {
             font-size: 0.6em !important;

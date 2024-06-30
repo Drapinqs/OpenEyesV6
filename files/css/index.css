@@ -1784,7 +1784,23 @@
     }
      .slideshow {
          width: 100% !important;
-         height: 120% !important;
+         height: 110% !important;
+    }
+}
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) {
+        .slideshow {
+         width: 100% !important;
+         height: 70% !important;
+    } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+.slideshow {
+         width: 100% !important;
+         height: 70% !important;
+         position: relative;
+         right: -10px;
+         top: 100px;
     }
 }
  @media (max-width: 1000px) {
