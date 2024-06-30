@@ -1986,7 +1986,10 @@
          font-size: 55% !important;
     }
      .extrap2 {
-         font-size: 110% !important;
+         font-size: 70% !important;
+    }
+    .tile p {
+        font-size: 70% !important;
     }
 }
  body.scrolled:not(.show-mobile-menu) .app-header {

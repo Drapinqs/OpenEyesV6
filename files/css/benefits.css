@@ -1260,9 +1260,6 @@
     }
 }
  @media (max-width:600px) {
-     .view-homepage .section-how-it-works .versions-wrapper {
-         height: 390px 
-    }
      .view-homepage .section-how-it-works .versions.desktop {
          display: none 
     }

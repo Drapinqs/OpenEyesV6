@@ -524,9 +524,9 @@
          line-height: 24px 
     }
     .tile2 {
-     width: 150%;
+     width: 100%;
      position: relative;
-     right: 80px;
+     right: 29px;
      padding: 10px !important;
 }
 }
@@ -2191,10 +2191,12 @@
           left: -90px;
           margin-top: 20px;
         }
+#textfield, #fullname-apply, #phone-apply, #fullname-apply2, #phone-apply2, #fullname-apply3, #phone-apply3 {
 
+     width: 100%;
+}
         .card-contents span {
           width: 500;
-          right:105;
           top: -80;
         }
 
